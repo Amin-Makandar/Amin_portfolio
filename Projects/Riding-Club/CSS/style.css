@@ -1,0 +1,65 @@
+#bbb{
+    background-image: url(../Images/Illustration/01.jpg);
+    background-size: 100% 100%;
+}
+@media only screen and (min-width:1200px)
+{
+    .a1{
+        font-size: 70px;
+        font-weight: 700;
+    }
+    .a2{
+        background-color: #1A1A1A;
+    }
+    .a3{
+        margin-top: -70px;
+        margin-left: 30px;
+    }
+    #background{
+        background-image: url(../Images/Background/lexrider_banner2_3.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        margin-top: -50px;
+        padding: 300px;
+    }
+
+    #c2{
+        background-image: url(../Images/Background/lexider_bg2_1.png);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        margin-top: -50px;
+        padding: 300px;
+    }
+    .b1{
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: -170px;
+        margin-left: -130px;
+    }
+    .b2{
+        margin-left: -130px;
+    }
+    #c1{
+        margin-top: -150px;
+        margin-left: 300px;
+    }
+    #c2{
+        background-image: url(../Images/Background/lexider_bg2_1.png);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        margin-top: -50px;
+        padding: 300px;
+    }
+    .e1{
+       height: 302px;
+     }
+     /* .d2:hover{
+        transform: scale(1.1);
+        transition-duration: 3s;
+     } */
+     .d1{
+    font-family: 'Chivo Mono', monospace;
+}
+}
+
+

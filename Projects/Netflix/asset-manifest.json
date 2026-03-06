@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AminM/Projects/Netflix/static/css/main.f3b95c01.css",
+    "main.js": "/AminM/Projects/Netflix/static/js/main.1e1dd2a5.js",
+    "static/media/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg": "/AminM/Projects/Netflix/static/media/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.332741ddb063b91922ba.jpg",
+    "static/media/ss6.jpg": "/AminM/Projects/Netflix/static/media/ss6.d92e8b9e623e0ec35b35.jpg",
+    "static/media/logo.png": "/AminM/Projects/Netflix/static/media/logo.f578280f79d3e5708212.png",
+    "static/media/ss4.jpeg": "/AminM/Projects/Netflix/static/media/ss4.f162e62320bd447ebcb8.jpeg",
+    "static/media/ss1.jpeg": "/AminM/Projects/Netflix/static/media/ss1.ba174946414e1b412e6c.jpeg",
+    "static/media/ss5.jpeg": "/AminM/Projects/Netflix/static/media/ss5.990ea58e1a1023bdd973.jpeg",
+    "static/media/ss2.jpeg": "/AminM/Projects/Netflix/static/media/ss2.4ed495b1ea55687772ac.jpeg",
+    "static/media/ss3.jpeg": "/AminM/Projects/Netflix/static/media/ss3.c24163cedf49d461454a.jpeg",
+    "index.html": "/AminM/Projects/Netflix/index.html",
+    "main.f3b95c01.css.map": "/AminM/Projects/Netflix/static/css/main.f3b95c01.css.map",
+    "main.1e1dd2a5.js.map": "/AminM/Projects/Netflix/static/js/main.1e1dd2a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3b95c01.css",
+    "static/js/main.1e1dd2a5.js"
+  ]
+}

@@ -1,0 +1,190 @@
+/* #header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0),rgba(0,0,0,0)),url(../img/background/hero-bg.png) no-repeat center;
+    background-size: 100% 100%;
+} */
+:root{
+    --bs-font:'Agbalumo', cursive;
+    --bs-font-2:'Bebas+Neue', cursive;
+    --bs-font-3:'Playfair+Display';
+}
+
+.font1{
+    font-family: var(--bs-font);
+}
+
+.font2{
+    font-family: var(--bs-font-2);
+}
+.font3{
+    font-family: var(--bs-font-3);
+}
+.button {
+    /* width: px; */
+    /* padding-top: 0px; */
+    /* padding-bottom: 30px; */
+    text-align: center;
+    /* color: #000; */
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .button-1 {
+    background-color: transparent;
+    border: 2px solid #6610f2;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #6610f2;
+  }
+  .button-1:hover {
+    color: #751775;
+    box-shadow: 0 0 10px 0 #6610f2 inset, 0 0 20px 2px #6610f2;
+    border: 2px solid #6610f2;
+  }
+
+  .button-2 {
+    background-color: transparent;
+    border: 2px solid #6610f2;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #ffff;
+  }
+  .button-2:hover {
+    color: #ffff;
+    box-shadow: 0 0 10px 0 #6610f2 inset, 0 0 20px 2px #6610f2;
+    border: 2px solid #6610f2;
+  }
+html{
+    scroll-behavior: smooth;
+}
+#header .fa-play{
+    color: #6610f2;
+    background-color: white;
+}
+#header .fab:hover{
+    color: #6610f2 !important;
+}
+#header .fa-play:hover{
+    background-color: #6610f2;
+    color: white;
+}
+#header h2{
+    font-family: 'Dancing Script', cursive;
+}
+#header .nav-link:hover{
+    text-shadow: 0px 0px 3px #ffff;
+}
+.icon{
+    margin: -50px 0px 0px 0px;
+    border-color: #6610f2 !important;
+    background-color: #6610f2 !important;
+}
+#owl-carousel .icon:hover{
+    /* color: black; */
+    background-color: #9e1e9e !important;
+    border: #9e1e9e;
+}
+#owl-carousel .location{
+    color: #6610f2;
+}
+#owl-carousel .location:hover{
+    color: #9e1e9e;
+}
+/* #hero .con{
+    background-color: #6610f2;
+    color: white;
+} */
+/* #hero .con:hover{
+    color: #6610f2;
+    background-color: white;
+} */
+#services .cc1{
+    background-color: #5400BC;
+}
+#services .cc2{
+    background-color: #5c00ce;
+}
+#discography .dg-1{
+    filter: opacity(75%);
+}
+#discography .dg-1:hover{
+    filter: opacity(100%); 
+}
+#audio .aud{
+    background-color: #6610f2;
+}
+#land{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(../img/illustration/countdown-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+#land h2{
+    font-family: 'Dancing Script', cursive;
+}
+#land .con{
+    background-color: #6610f2;
+    color: white;
+}
+#land .con:hover{
+    color: #6610f2;
+    background-color: white;
+}
+#footer{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1)),url(../img/illustration/footer-bg.png);
+}
+#footer .fas{
+    color: #5c00ce !important;
+    background-color:white;
+}
+#footer .fab{
+    color: #5c00ce;
+    background-color:white;
+}
+#footer .fab:hover{
+    color: white;
+    background-color:#5c00ce;
+}
+#footer .bot{
+    background-color: #6610f2;
+    color: white;
+    border: 1px solid #6610f2;
+}
+#footer .bot:hover{
+    background-color: white;
+    color: #5400BC;
+}
+
+@media only screen and (min-width:320px) {
+    #header{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0),rgba(0,0,0,0)),url(../img/background/hero-bg.png) no-repeat center;
+        /* background-size: 100% 100%; */
+    }
+    #footer .bot{
+        margin-left: -10px !important;
+    }
+   
+
+}
+@media only screen and (min-width:768px) {
+    #header{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0),rgba(0,0,0,0)),url(../img/background/hero-bg.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+   
+}
+
+/* #footer .ml{
+     ;
+} */
+/* <div class="owl-carousel owl-theme">
+                            <div class="item"><img src="./img/illustration/events/event-1.jpg" alt=""></div>
+                            <div class="item"><img src="./img/illustration/events/event-2.jpg" alt=""></div>
+                            <div class="item"><img src="./img/illustration/events/event-3.jpg" alt=""></div>
+                            <div class="item"><img src="./img/illustration/events/event-1.jpg" alt=""></div>
+                            <div class="item"><img src="./img/illustration/events/event-2.jpg" alt=""></div>
+                            <div class="item"><img src="./img/illustration/events/event-3.jpg" alt=""></div>
+                        </div> */
